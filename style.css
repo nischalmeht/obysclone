@@ -187,12 +187,14 @@ body {
     width: 100%;
     object-fit: cover;
     top: 0;
+    /* opacity: 0; */
 }
 
 #video-container video {
     height: 100%;
     width: 100%;
     object-fit: cover;
+    opacity: 0;
 }
 #video-cursor{
     background-color: #FFA63D;
@@ -536,3 +538,17 @@ body {
     z-index: 9999 !important;
     pointer-events: none;
   }
+#flag{
+    height: 20vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transform: translate(-50%,-50%);
+}
+
+#hero3{
+    /* background-color: red; */
+    z-index: 9999;
+    position: relative;
+}
